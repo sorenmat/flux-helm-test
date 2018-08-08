@@ -6,6 +6,8 @@ metadata:
   namespace: test
   labels:
     chart: hello
+  annotations:
+    flux.weave.works/tag.chart-image: glob:prod
 spec:
   chartGitPath: hello
   releaseName: hello
