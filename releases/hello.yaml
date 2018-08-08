@@ -10,5 +10,5 @@
     chartGitPath: hello
     releaseName: hello
     values:
-      image: sorenmat/hello:nothing
+      image: sorenmat/hello:latest
       imagePullPolicy: IfNotPresent
