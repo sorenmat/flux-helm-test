@@ -14,6 +14,7 @@ spec:
         app: {{ template "mongodb.fullname" . }}
       annotations:
         createdby: smo
+        addedby: smo
     spec:
       containers:
       - name: {{ template "mongodb.fullname" . }}
