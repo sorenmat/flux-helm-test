@@ -1,0 +1,7 @@
+appVersion: 3.7.1
+description: hello
+engine: gotpl
+home: https://mongodb.org
+icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+name: hello
+version: 0.4.25
