@@ -1,14 +1,14 @@
 ---
-  apiVersion: helm.integrations.flux.weave.works/v1alpha2
-  kind: FluxHelmRelease
-  metadata:
-    name: hello
-    namespace: test
-    labels:
-      chart: hello
-  spec:
-    chartGitPath: hello
-    releaseName: hello
-    values:
-      image: sorenmat/hello:latest
-      imagePullPolicy: IfNotPresent
+apiVersion: helm.integrations.flux.weave.works/v1alpha2
+kind: FluxHelmRelease
+metadata:
+  name: hello
+  namespace: test
+  labels:
+    chart: hello
+spec:
+  chartGitPath: hello
+  releaseName: hello
+  values:
+    image: sorenmat/hello:1
+    imagePullPolicy: IfNotPresent
