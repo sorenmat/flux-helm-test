@@ -12,6 +12,8 @@ spec:
     metadata:
       labels:
         app: {{ template "mongodb.fullname" . }}
+      annotations:
+        createdby: smo
     spec:
       containers:
       - name: {{ template "mongodb.fullname" . }}
